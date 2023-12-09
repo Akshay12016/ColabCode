@@ -9,14 +9,13 @@ body {
     /* display: flex; */
     font-family: 'Poppins', sans-serif;
     /* overflow: hidden; */
-    background-color: rgb(11, 54, 172);
+    background-color:white;
 }
 
 .wave {
     position: fixed;
-    bottom: 0;
-    left: 0;
-    height: 100%;
+    top: 110px;
+    height: 60%;
     z-index: -1;
 }
 
@@ -34,12 +33,13 @@ body {
     justify-content: flex-end;
     align-items: center;
     position: relative;
+    
 }
 
 .login-content {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
     text-align: center;
     margin-top: 5vh;
@@ -50,8 +50,8 @@ body {
 }
 
 .header {
-    color: rgb(255, 255, 255);
-    font-family: 'arial';
+    color: rgb(83, 93, 209);
+    font-family: "Times New Roman", Times, serif;
     font-weight: bold;
     font-size: 5rem;
     padding: 5px;
@@ -66,6 +66,7 @@ form {
 
 .login-content img {
     height: 100px;
+    
 }
 
 .login-content h2 {
@@ -159,7 +160,7 @@ form {
     background: none;
     padding: 0.5rem 0.7rem;
     font-size: 1.2rem;
-    color: rgb(255, 251, 251);
+    color: rgb(219, 203, 203);
     font-family: 'poppins', sans-serif;
 }
 
@@ -181,7 +182,7 @@ a:hover {
 }
 
 .select {
-    background-color: rgb(63, 103, 214);
+    background-color: rgb(83, 93, 209);
     margin-left: 10px;
 }
 
@@ -196,10 +197,10 @@ a:hover {
     display: block;
     width: 100%;
     height: 50px;
-    border-radius: 25px;
+    border-radius: 20px;
     outline: none;
     border: none;
-    background-image: linear-gradient(to right, #32be8f, #38d39f, #32be8f);
+    background-color: rgb(83, 93, 209);
     background-size: 200%;
     font-size: 1.2rem;
     color: #fff;
